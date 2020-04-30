@@ -27,6 +27,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      permalink: /article/:year-:month-:day-:title.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
